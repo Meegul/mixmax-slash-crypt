@@ -6,18 +6,12 @@ const algorithm = 'aes256';
 module.exports = (req, res) => {
 	const input = req.query.text.trim();
 	const params = input.split(' ');
-
-	console.log(input);
-	console.log(params);
-
+	
 	const encrypt = params[0] === 'encrypt';
 	const decrypt = params[0] === 'decrypt';
 
 	const password = params[params.length - 1];
 	const text = params.slice(1, params.length - 1).join(' ');
-
-	console.log(encrypt);
-	console.log(decrypt);
 
 	//Encrypt
 	if (encrypt && !decrypt) {
