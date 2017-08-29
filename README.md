@@ -1,5 +1,5 @@
 # mixmax-slash-crypt
 A simple slash command for mixmax that allows you to encrypt and decrypt messages
 
-## See how it works!
-![](https://media.giphy.com/media/l1J9JgihDdjsFTNHW/giphy.gif)
+## See it in action!
+![](https://media.giphy.com/media/3ohhwnl1arVlnrNNxS/giphy.gif)
