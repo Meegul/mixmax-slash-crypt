@@ -1,0 +1,18 @@
+{
+  "name": "crypt",
+  "version": "0.0.1",
+  "description": "a mixmax / command allowing secure transmission of messages within emails",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Meegul",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "pem": "^1.9.7",
+    "request": "^2.81.0"
+  }
+}
